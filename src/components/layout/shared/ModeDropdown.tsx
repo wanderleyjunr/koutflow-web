@@ -108,7 +108,7 @@ const ModeDropdown = () => {
                     selected={settings.mode === 'system'}
                   >
                     <i className='tabler-device-laptop text-[22px]' />
-                    System
+                    Sistema
                   </MenuItem>
                 </MenuList>
               </ClickAwayListener>

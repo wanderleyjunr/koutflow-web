@@ -29,30 +29,30 @@ const FooterContent = () => {
       className={classnames(verticalLayoutClasses.footerContent, 'flex items-center justify-between flex-wrap gap-4')}
     >
       <p>
-        <span className='text-textSecondary'>{`© ${new Date().getFullYear()}, Made with `}</span>
+        <span className='text-textSecondary'>{`© ${new Date().getFullYear()}, Feito com `}</span>
         <span>{`❤️`}</span>
         <span className='text-textSecondary'>{` by `}</span>
-        <Link href='https://pixinvent.com' target='_blank' className='text-primary uppercase'>
-          Pixinvent
+        <Link href='https://tetelestai.io' target='_blank' className='text-primary uppercase'>
+          Tetelestai
         </Link>
       </p>
       {!isBreakpointReached && (
         <div className='flex items-center gap-4'>
-          <Link href='https://themeforest.net/licenses/standard' target='_blank' className='text-primary'>
-            License
+          <Link href='#' target='_blank' className='text-primary'>
+            Fale Conosco
           </Link>
-          <Link href='https://themeforest.net/user/pixinvent/portfolio' target='_blank' className='text-primary'>
-            More Themes
+          <Link href='#' target='_blank' className='text-primary'>
+            Central de Ajuda
           </Link>
           <Link
-            href='https://demos.pixinvent.com/vuexy-nextjs-admin-template/documentation'
+            href='#'
             target='_blank'
             className='text-primary'
           >
-            Documentation
+            Instagran
           </Link>
-          <Link href='https://pixinvent.ticksy.com' target='_blank' className='text-primary'>
-            Support
+          <Link href='#' target='_blank' className='text-primary'>
+            WhatsApp
           </Link>
         </div>
       )}
