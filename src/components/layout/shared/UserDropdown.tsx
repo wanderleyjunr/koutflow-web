@@ -24,6 +24,14 @@ import Button from '@mui/material/Button'
 // Hook Imports
 import { useSettings } from '@core/hooks/useSettings'
 
+// interface UserDropdownType  {
+//   userCurrent: {
+//     name: string
+//     avatar_url: string
+//     email: string
+//   }
+// } 
+
 // Styled component for badge content
 const BadgeContentSpan = styled('span')({
   width: 8,
