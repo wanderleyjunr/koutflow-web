@@ -59,5 +59,8 @@
     "**/Thumbs.db": true,
     "node_modules": true,
     ".next": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
 }
